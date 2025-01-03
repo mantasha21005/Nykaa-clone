@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'mukta',sans-serif;
+
+}
+.f-nav{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(252,155,171);
+    padding:18px;
+
+}
+.feature{
+    display:flex ;
+}
+.feature .app{
+    display: flex;
+    margin-inline: 22px;
+  
+}
+.feature.app i{
+    margin-inline: 10px;
+
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:11px;
+
+}
+.sec-nav ul li img{
+    width:8%;
+    margin-left: 30px;
+
+}
+.sec-nav ul li a{
+    margin-inline: 22px;
+
+
+}
+.nyka-bar ul li img:hover{
+    color:blueviolet;
+}
+.sec-nav .inputs{
+
+    display:flex;
+}
+button{
+    margin-inline: 22px;
+    width:80px;
+    height: 35px;
+    background-color: rgb(249,61,92);
+    color:white;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 10px;
+ 
+}
+.sec-nav .inputs input{
+    width:100%;
+    height: 40px;
+    background-color: rgb(225,217,217);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    
+
+}
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.items ul li a{
+    list-style: none;
+    margin-inline: 15px;
+    text-align: center;
+
+}
+.items ul li a:hover{
+   color:blueviolet;
+}
+.main-page img{
+    width:100%;
+}
+.pink-img img{
+   width:100%; 
+}
+.pink-img h2{
+    text-align: center;
+    padding: 7px;
+}
+.brand h2{
+    text-align: center;
+}
+.card{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   margin-top: 33px;
+
+}
+.card img{
+    margin-inline: 12px;
+    width:50%;
+}
+  .card h2{
+    text-align: center;
+    padding:22px;
+}
+.topbrd{
+    display: flex;
+}
+.topbrd img{
+    margin-inline: 20px;
+    width: 20%;
+}
+.only-nykaa h2{
+    text-align: center;
+    padding:22px; 
+} 
+.only{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.only img{
+    display: flex;
+    width:44%;
+    margin-inline: 22px;
+}
+.makeup{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 42px;
+}
+.makeup img{
+    width:20%;
+    margin-inline: 18px;
+}
+.special h2{
+    text-align: center;
+    padding: 22px;
+}
+.special .curation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.curation img{
+   margin-inline: 22px;
+   width:44%;
+}
+.beauty h2{
+    text-align: center;
+    padding:22px;
+}
+.beauty .advice {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.advice img{
+    margin-inline: 22px;
+    width:44%;
+}
+.Focus h2{
+  font-size: 20px;
+  padding: 10px;
+}
+.Focus h3{
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 20px;
+}
+.Focus img{
+    width:20%;
+    margin-inline: 20px;
+    justify-content: center;
+    justify-content: space-around; 
+}
+.nic img{
+    width:32%;
+    margin-inline: 0px;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.radar h2{
+   font-size: 20px;
+}
+.radar h3{
+    font-size: 15px;
+    color: gray;
+    padding-top: 10px;  
+}
+.radar img{
+    width:17%;
+    margin-inline: 10px;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around ;
+    background-color: rgba(152, 147, 147, 0.931);
+}
+.footer ul li {
+    flex-direction: column;
+    list-style: none;
+
+}
+.footer a{
+    padding-top: 20px;
+    display: block;
+    font-weight:100% ;
+    font-size: 14px;
+    color: white;
+
+}
+.footer h2{
+    font-size: 20px;
+    color: white;
+    margin-right: 150px;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.footer ul li img{
+   width:40%;
+   padding: 22px;
+   margin-left: 10px;
+
+}
+.footer ul li a{
+    margin-left: 40px;
+    font-size: 13px;
+    padding-top:9px;
+    justify-content: space-around;
+}
+.footer-panel{
+    justify-content: center;
+    background-color: rgb(95, 92, 92);
+}
+.foot-panel4{
+    background-color:rgb(206, 39, 67);
+    color:white;
+    height: 80px;
+}
+.pages{
+   font-size: 0.9rem;
+   text-align: center;
+   padding-top: 25px;
+}
+.pages a{
+    color:white;
+}
+.copyright{
+    padding-top: 7px;
+    font-size: 0.7rem;
+    text-align: center;
+    color:white;
+}
